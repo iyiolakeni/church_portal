@@ -1,0 +1,41 @@
+.page{
+    background: url('../assets/intro.gif');
+    background-position:center;
+    background-size: cover;
+    background-repeat: none;
+    width: 100%;
+    height: 100vh;
+}
+.center{
+    display: grid;
+    place-items: center;
+    align-self: center;
+    position: relative;
+    top: 30%;
+    color: white;
+}
+.center button{
+    border-radius: 50px;
+    background-color: #f8b44d;
+    padding: 10px 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    cursor: pointer;
+}
+.center button:hover{
+    background-color: #f7c273;
+    color: black;
+    transition: 0.5s;
+}
+.center h1{
+    margin: 0;
+    word-spacing: -1px;
+    /* font-size: 35px; */
+}
+.center p{
+    font-size: 1.6rem;
+    font-weight: light;
+    margin-top: 0;
+}
